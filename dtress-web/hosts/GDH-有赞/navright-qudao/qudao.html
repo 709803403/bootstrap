@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--设置当前HTML文件的编码格式-->
+    <meta charset="UTF-8">
+    <!--声明当前网页在移动端浏览器中-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--设置浏览器的兼容模式版本 兼容IE就要写这句话，IE的最高版本-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>有赞首页</title>
+    <link rel="stylesheet" href="qudao.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!--  条件注释 当判断条件满足时，就会执行注释中的HTML代码，条件不满足时会当作注  释忽略掉-->
+    <!-- 低版本让浏览器可以使用CSS3的媒体查询 -->
+    <!--[if IE 9]-->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--[endif]-->
+    <!--引入bootstrap核心样式表文件-->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<!--头部-->
+<nav class="navbar navbar-default mynavbar" role="navigation">
+    <div class="container-fluid mycontainer" style="padding: 0">
+        <a href="#">
+            <img class="mynav-pic" src="http://img.yzcdn.cn/public_files/2016/11/29/8fc4cd6f771897cbf9663166a63a5302.png" alt="有赞">
+        </a>
+        <ul class="navbar-right">
+            <li class="active"><a href="#" style="margin-right: 15px">首页</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    产品和解决方案&nbsp;<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" style="background-color: aqua">
+                    <div class="dropdown-menu-container" style="background-color: red">
+                        <li class="row" style="background-color: bisque;float: left">
+                            <div class="mymenu-title">产品</div>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p>网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4><img src="http://b.yzcdn.cn/static/intro/img/php-tpl/icon-wsc.png" alt="">有赞微商城</h4>
+                                <p >网上开店工具，帮你提升销量</p>
+                            </a>
+                        </li>
+                        <li class="my-line"></li>
+                        <li class="row" style="background-color: bisque;float: right;padding-left: 70px">
+                            <div class="mymenu-title">解决方案</div>
+                            <a href="#" class="col-sm-6">
+                                <h4>小程序</h4>
+                                <p style="margin-left: 0">一键接入，抢占市场红利</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>分销</h4>
+                                <p style="margin-left: 0">搭建分销网络，万人帮你卖货</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞微商城</h4>
+                                <p style="margin-left: 0">网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞微商城</h4>
+                                <p style="margin-left: 0">网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞微商城</h4>
+                                <p style="margin-left: 0">网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞零售</h4>
+                                <p style="margin-left: 0">打通门店网店，业绩翻倍增长</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞微商城</h4>
+                                <p style="margin-left: 0">网上开店工具，帮你提升销量</p>
+                            </a>
+                            <a href="#" class="col-sm-6">
+                                <h4>有赞微商城</h4>
+                                <p style="margin-left: 0">网上开店工具，帮你提升销量</p>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </li>
+            <li><a href="navright-youzanyun/youzanyun.html" style="margin-right: 15px" target="_blank">有赞云</a></li>
+            <li><a href="#" style="margin-right: 15px">渠道合作</a></li>
+            <li>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    服务资源&nbsp;<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu dropdown" >
+                    <div class="dropdown-menu-container" style="background-color: red">
+                        <div class="col-sm-3 navserve">
+                            <a href="#" target="_blank" >
+                                <h3>商家社区</h3>
+                                <p>有赞商家在线交流社区</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 navserve">
+                            <a href="#" target="_blank" >
+                                <h3>服务支持</h3>
+                                <p>以服务赋能商家</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 navserve">
+                            <a href="#" target="_blank" >
+                                <h3>有赞学院</h3>
+                                <p>视频教学让学习更简单</p>
+                            </a>
+                        </div>
+                        <div class="col-sm-3 navserve">
+                            <a href="#" target="_blank" >
+                                <h3>有赞商盟</h3>
+                                <p>地方商圈资源合作分享</p>
+                            </a>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="my1" style="padding-right: 0"><a class="btn btn-default mydenglu" href="#" role="button">登录</a></li>
+            <li class="my2" style="padding: 0 0 0 10px"> <a class="btn btn-default myzhuce" href="#" role="button">注册</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="qudao-nav">
+    <div class="qudao-left">渠道合作</div>
+</div>
+<div class="qudao-container">
+    <div class="banner">
+        <img src="https://b.yzcdn.cn/static/intro/img/qudao/banner.jpg" alt="">
+        <div>
+          <h2>新零售、全渠道、SaaS三大风口，携手有赞共倔万亿市场</h2>
+          <h1>有赞代理商全国火热招募中</h1>
+          <a href="#" class="btn btn-default">立即申请</a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.qudao-nav{
+    max-width: 1100px;
+    margin: auto;
+    height: 51px;
+}
+.qudao-nav>.qudao-left{
+    font-size: 16px;
+    line-height: 50px;
+}
+.qudao-container{
+    width: 100%;
+
+}
+.qudao-container>.banner{
+    position: relative;
+}
+.qudao-container>.banner>div{
+    position: absolute;
+    text-align: center;
+    top:22%;
+    width: 100%;
+    color: #fff;
+}
+.qudao-container>.banner>div>h2{
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 100;
+}
+.qudao-container>.banner>div>h1{
+    font-size: 38px;
+    line-height: 60px;
+}
+.qudao-container>.banner>div>a{
+    background-color: #f60;
+    padding: 0 37px;
+    line-height: 38px;
+    font-size: 16px;
+    margin: 50px 0 0 0;
+    border: 1px solid #f60;
+    color:#fff;
+    border-radius: 3%;
+}
